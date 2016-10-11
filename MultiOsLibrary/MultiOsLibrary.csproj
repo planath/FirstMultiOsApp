@@ -38,6 +38,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Artwork.cs" />
+    <Compile Include="ArtworkCategory.cs" />
+    <Compile Include="ArtworkCategoryManager.cs" />
     <Compile Include="ArtworkManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

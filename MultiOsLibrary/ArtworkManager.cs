@@ -8,14 +8,34 @@ namespace MultiOsLibrary
 {
     public class ArtworkManager
     {
+        public const string OUT_OF_RANGE_INDEX = "{0} is invalid position. Must be between 0 and {1}";
+        private const string DefaultCategory = "Sky";
         private readonly Artwork[] gallery;
         private int currentIndex;
         private readonly int lastIndex;
+        
+        public ArtworkManager() :this(DefaultCategory){}
 
-        public ArtworkManager()
+        public ArtworkManager(string categoryTitle)
         {
-            gallery = InitGallery();
-            lastIndex = gallery.Length - 1;
+            switch (categoryTitle)
+            {
+                case "Sky":
+                    gallery = InitSkyGallery();
+                    break;
+                case "Landscape":
+                    gallery = InitLandscapeGallery();
+                    break;
+                case "Water":
+                    gallery = InitWaterGallery();
+                    break;
+            }
+
+            if (gallery != null)
+            {
+                lastIndex = gallery.Length - 1;
+            }
+            
         }
 
         public Artwork CurrentArtwork
@@ -57,9 +77,10 @@ namespace MultiOsLibrary
             }
             else
             {
-                throw new IndexOutOfRangeException(
-                    String.Format("{0} is invalid position. Must be between 0 and {1}",
-                    position, lastIndex));
+                //throw new IndexOutOfRangeException(
+                //    String.Format(OUT_OF_RANGE_INDEX,
+                //    position, lastIndex));
+                throw new IndexOutOfRangeException(OUT_OF_RANGE_INDEX);
             }
         }
 
@@ -72,34 +93,97 @@ namespace MultiOsLibrary
             get { return currentIndex < lastIndex; }
         }
 
-        private Artwork[] InitGallery()
+       
+        private Artwork[] InitWaterGallery()
         {
             return new Artwork[]
             {
                 new Artwork()
                 {
                     Title = "Berg",
-                    Description = "Berg beschreibung",
+                    Description = "Berg aus der Water Gallery beschreibung",
                     Image = "back_0"
                 },
                 new Artwork()
                 {
                     Title = "Stadt",
-                    Description = "Stadt beschreibung",
+                    Description = "Stadt aus der Water Gallery beschreibung",
                     Image = "back_3"
                 },
                 new Artwork()
                 {
                     Title = "Land",
-                    Description = "Land beschreibung",
+                    Description = "Land aus der Water Gallery beschreibung",
                     Image = "back_2"
                 },
                 new Artwork()
                 {
                     Title = "Fluss",
-                    Description = "Fluss beschreibung",
+                    Description = "Fluss aus der Water Gallery beschreibung",
                     Image = "back_1"
                 },
+            };
+        }
+
+        private Artwork[] InitLandscapeGallery()
+        {
+            return new Artwork[]
+            {
+                new Artwork()
+                {
+                    Title = "Fluss",
+                    Description = "Fluss aus der Landscape Gallery beschreibung",
+                    Image = "back_1"
+                },
+                new Artwork()
+                {
+                    Title = "Berg",
+                    Description = "Berg aus der Landscape Gallery beschreibung",
+                    Image = "back_0"
+                },
+                new Artwork()
+                {
+                    Title = "Stadt",
+                    Description = "Stadt aus der Landscape Gallery beschreibung",
+                    Image = "back_3"
+                },
+                new Artwork()
+                {
+                    Title = "Land",
+                    Description = "Land aus der Landscape Gallery beschreibung",
+                    Image = "back_2"
+                }
+            };
+        }
+
+        private Artwork[] InitSkyGallery()
+        {
+            return new Artwork[]
+            {
+                new Artwork()
+                {
+                    Title = "Stadt",
+                    Description = "Stadt aus der Sky Gallery beschreibung",
+                    Image = "back_3"
+                },
+                new Artwork()
+                {
+                    Title = "Berg",
+                    Description = "Berg aus der Sky Gallery beschreibung",
+                    Image = "back_0"
+                },
+                new Artwork()
+                {
+                    Title = "Land",
+                    Description = "Land aus der Sky Gallery beschreibung",
+                    Image = "back_2"
+                },
+                new Artwork()
+                {
+                    Title = "Fluss",
+                    Description = "Fluss aus der Sky Gallery beschreibung",
+                    Image = "back_1"
+                }
             };
         }
     }

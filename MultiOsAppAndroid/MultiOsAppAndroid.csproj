@@ -69,9 +69,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoryActivity.cs" />
     <Compile Include="ArtworkActivity.cs" />
     <Compile Include="ArtworkFragment.cs" />
     <Compile Include="ArtworkPagerAdapter.cs" />
+    <Compile Include="ArtworkCategoryManagerAdapter.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="ResourceHelper.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -85,7 +87,10 @@
     <AndroidResource Include="Resources\layout\ArtworkFragment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\GalleryActivity.axml">
+    <AndroidResource Include="Resources\layout\ArtworkActivity.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CategoryItem.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

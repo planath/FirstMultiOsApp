@@ -12,6 +12,7 @@ public class ArtworkPagerAdapter
 		__md_methods = 
 			"n_getCount:()I:GetGetCountHandler\n" +
 			"n_getItem:(I)Landroid/support/v4/app/Fragment;:GetGetItem_IHandler\n" +
+			"n_getItemPosition:(Ljava/lang/Object;)I:GetGetItemPosition_Ljava_lang_Object_Handler\n" +
 			"";
 		mono.android.Runtime.register ("MultiOsAppAndroid.ArtworkPagerAdapter, MultiOsAppAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", ArtworkPagerAdapter.class, __md_methods);
 	}
@@ -39,6 +40,14 @@ public class ArtworkPagerAdapter
 	}
 
 	private native android.support.v4.app.Fragment n_getItem (int p0);
+
+
+	public int getItemPosition (java.lang.Object p0)
+	{
+		return n_getItemPosition (p0);
+	}
+
+	private native int n_getItemPosition (java.lang.Object p0);
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

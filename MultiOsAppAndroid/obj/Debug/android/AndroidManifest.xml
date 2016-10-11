@@ -4,7 +4,8 @@
   <uses-sdk android:minSdkVersion="16" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="MultiOsAppAndroid" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+  <application android:label="MultiOsAppAndroid" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="My Galleries" android:name="md570f9d30918ceb69f5db34009dfaad4e3.CategoryActivity" />
     <activity android:icon="@drawable/icon" android:label="Gallery" android:name="md570f9d30918ceb69f5db34009dfaad4e3.ArtworkActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

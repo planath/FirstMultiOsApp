@@ -13,6 +13,7 @@ using MultiOsLibrary;
 using Android.Support.V4.App;
 using Fragment = Android.Support.V4.App.Fragment;
 using FragmentManager = Android.Support.V4.App.FragmentManager;
+using Object = Java.Lang.Object;
 
 namespace MultiOsAppAndroid
 {
@@ -34,6 +35,20 @@ namespace MultiOsAppAndroid
             frag.Artwork = artworkManager.CurrentArtwork;
 
             return frag;
+        }
+
+        public ArtworkManager ArtworkManager
+        {
+            set
+            {
+                artworkManager = value;
+                NotifyDataSetChanged();
+            }
+        }
+
+        public override int GetItemPosition(Object objectValue)
+        {
+            return PositionNone;
         }
     }
 }

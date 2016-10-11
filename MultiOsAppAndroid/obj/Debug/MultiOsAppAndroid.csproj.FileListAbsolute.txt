@@ -18,7 +18,6 @@ C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\Mu
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppAndroid\bin\Debug\Xamarin.Android.Support.v4.dll
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppAndroid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppAndroid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
-C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppAndroid\obj\Debug\res\layout\galleryactivity.xml
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppAndroid\obj\Debug\res\drawable\back_1.png
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppAndroid\obj\Debug\res\drawable\back_2.png
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppAndroid\obj\Debug\res\drawable\back_3.png
@@ -49,5 +48,7 @@ C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\Mu
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppAndroid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppAndroid\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppAndroid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppAndroid\obj\Debug\res\layout\categoryitem.xml
+C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppAndroid\obj\Debug\res\layout\artworkactivity.xml
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppAndroid\obj\Debug\MultiOsAppAndroid.dll.mdb
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppAndroid\bin\Debug\MultiOsAppAndroid.dll.mdb

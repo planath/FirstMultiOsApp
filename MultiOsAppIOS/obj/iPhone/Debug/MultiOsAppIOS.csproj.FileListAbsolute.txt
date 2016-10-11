@@ -6,6 +6,5 @@ C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\Mu
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppIOS\obj\iPhone\Debug\optimized\
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppIOS\obj\iPhone\Debug\MultiOsAppIOS.exe
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppIOS\obj\iPhone\Debug\MultiOsAppIOS.pdb
-C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppIOS\obj\iPhone\Debug\MultiOsAppIOS.csprojResolveAssemblyReference.cache
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppIOS\obj\iPhone\Debug\MultiOsAppIOS.exe.mdb
 C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsAppIOS\bin\iPhone\Debug\MultiOsAppIOS.exe.mdb

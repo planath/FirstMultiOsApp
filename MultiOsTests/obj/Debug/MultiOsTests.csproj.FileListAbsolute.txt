@@ -1,0 +1,11 @@
+C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsTests\bin\Debug\MultiOsTests.dll
+C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsTests\bin\Debug\MultiOsTests.pdb
+C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsTests\bin\Debug\MultiOsAppAndroid.dll
+C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsTests\bin\Debug\MultiOsLibrary.dll
+C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsTests\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsTests\bin\Debug\MultiOsAppAndroid.pdb
+C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsTests\bin\Debug\MultiOsLibrary.pdb
+C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsTests\obj\Debug\MultiOsTests.csprojResolveAssemblyReference.cache
+C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsTests\obj\Debug\MultiOsTests.dll
+C:\Users\andreas.pluess\documents\visual studio 2015\Projects\FirstMultiOsApp\MultiOsTests\obj\Debug\MultiOsTests.pdb
